@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[街觅/觅支付开发文档]]></title>
+  <link href="http://docs.jiemi.net.cn/atom.xml" rel="self"/>
+  <link href="http://docs.jiemi.net.cn/"/>
+  <updated>2016-04-09T11:13:49+08:00</updated>
+  <id>http://docs.jiemi.net.cn/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    
+  </author>
+  <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[测试]]></title>
+    <link href="http://docs.jiemi.net.cn/14601709391614.html"/>
+    <updated>2016-04-09T11:02:19+08:00</updated>
+    <id>http://docs.jiemi.net.cn/14601709391614.html</id>
+    <content type="html"><![CDATA[
+<ul>
+<li>
+<a href="#toc_0">CODE TEST</a>
+</li>
+<li>
+<a href="#toc_1">TO DO LIST</a>
+</li>
+<li>
+<a href="#toc_2">TABLE TEST</a>
+</li>
+<li>
+<a href="#toc_3">流程图</a>
+<ul>
+<li>
+<a href="#toc_4">第一个</a>
+</li>
+<li>
+<a href="#toc_5">第二个</a>
+</li>
+</ul>
+</li>
+</ul>
+
+
+<h1 id="toc_0">CODE TEST</h1>
+
+<pre><code class="language-java">int i = 0; i = 1;
+for (int i = 0; i &lt; 100; i++)
+{
+      printf(&quot;hello markdown!\n&quot;);
+}
+</code></pre>
+
+<h1 id="toc_1">TO DO LIST</h1>
+
+<ul>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked /> 完成
+</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" /> 未完成
+</li>
+</ul>
+
+<h1 id="toc_2">TABLE TEST</h1>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center">Id</th>
+<th style="text-align: center">Table</th>
+<th style="text-align: center">Remark</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td style="text-align: center">uid</td>
+<td style="text-align: center">user</td>
+<td style="text-align: center">用户</td>
+</tr>
+<tr>
+<td style="text-align: center">rid</td>
+<td style="text-align: center">role</td>
+<td style="text-align: center">角色</td>
+</tr>
+<tr>
+<td style="text-align: center">sid</td>
+<td style="text-align: center">shop</td>
+<td style="text-align: center">店铺</td>
+</tr>
+<tr>
+<td style="text-align: center">pid</td>
+<td style="text-align: center">permissions</td>
+<td style="text-align: center">权限</td>
+</tr>
+</tbody>
+</table>
+
+<h1 id="toc_3">流程图</h1>
+
+<h2 id="toc_4">第一个</h2>
+
+<pre><code class="language-flow">st=&gt;start: Start:&gt;http://www.google.com[blank]
+e=&gt;end:&gt;http://www.google.com
+op1=&gt;operation: My Operation
+sub1=&gt;subroutine: My Subroutine
+cond=&gt;condition: Yes
+or No?:&gt;http://www.google.com
+io=&gt;inputoutput: catch something...
+
+st-&gt;op1-&gt;cond
+cond(yes)-&gt;io-&gt;e
+cond(no)-&gt;sub1(right)-&gt;op1
+</code></pre>
+
+<h2 id="toc_5">第二个</h2>
+
+<pre><code class="language-sequence">Andrew-&gt;China: Says Hello
+Note right of China: China thinks about it
+China--&gt;Andrew: How are you?
+Andrew-&gt;&gt;China: I am good thanks!
+</code></pre>
+
+]]></content>
+  </entry>
+  
+</feed>
